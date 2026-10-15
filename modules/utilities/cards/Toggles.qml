@@ -5,6 +5,7 @@ import QtQuick.Layouts
 import Quickshell.Bluetooth
 import Caelestia.Components
 import Caelestia.Config
+import Caelestia.I18n
 import Caelestia.Plugins
 import qs.components
 import qs.components.controls
@@ -52,7 +53,7 @@ StyledRect {
 
         StyledText {
             Layout.bottomMargin: Tokens.spacing.medium - parent.spacing
-            text: qsTr("Quick Toggles")
+            text: Tr.tr("Quick toggles")
             font: Tokens.font.body.medium
         }
 
