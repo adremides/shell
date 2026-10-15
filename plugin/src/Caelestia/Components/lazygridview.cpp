@@ -1,12 +1,13 @@
 #include "lazygridview.hpp"
 
-#include <algorithm>
-#include <cmath>
 #include <qpoint.h>
 #include <qpropertyanimation.h>
 #include <qqmlcontext.h>
 #include <qset.h>
 #include <qtimer.h>
+
+#include <algorithm>
+#include <cmath>
 
 namespace {
 
