@@ -13,6 +13,9 @@ qml_module(caelestia-plugins
         Plugins.qml
     LIBRARIES
         Qt::Quick
+        caelestia-core
+    DEPENDENCIES
+        Caelestia
 )
 
 # Bake the shell version in so plugin requirements can be checked against it
